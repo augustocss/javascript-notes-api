@@ -5,7 +5,7 @@ const User = require('../models/user');
 const jwt = require('jsonwebtoken');
 const WithAuth = require('../middlewares/auth');
 require('dotenv').config();
-const secret = process.env.JWT_TOKEN;
+const secret = "AsdfASDFasDFERwtrEtEWtewr";
 
 router.post('/register', async (req, res) => {
   const { name, email, password } = req.body;
