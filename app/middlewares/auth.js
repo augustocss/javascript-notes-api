@@ -1,6 +1,6 @@
 require('dotenv');
 //const secret = process.env.JWT_TOKEN;
-const secret = "sdfSDfgFGhGHjgfwetWQreqWdsfcsadfasas"; // hardcoded para corrigir problema de nao encontrar o valor direto do .env
+const secret = "sdfSDfgFGhGHjgfwetWQreqWdsfcsadfasas"; // hardcoded para corrigir problema de nao encontrar o valor direto do .env (tb no arquivo routes/users)
 //console.log(process.env.JWT_TOKEN);
 const { decode } = require('jsonwebtoken');
 const jwt = require('jsonwebtoken');

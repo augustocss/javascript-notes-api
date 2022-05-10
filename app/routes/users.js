@@ -5,7 +5,7 @@ const User = require('../models/user');
 const jwt = require('jsonwebtoken');
 const WithAuth = require('../middlewares/auth');
 require('dotenv').config();
-const secret = "AsdfASDFasDFERwtrEtEWtewr";
+const secret = "sdfSDfgFGhGHjgfwetWQreqWdsfcsadfasas"; // hardcoded para corrigir problema de nao encontrar o valor direto do .env (tb no arquivo middlewares/auth)
 
 router.post('/register', async (req, res) => {
   const { name, email, password } = req.body;
